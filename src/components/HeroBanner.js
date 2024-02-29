@@ -54,7 +54,12 @@ const HeroBanner = () => (
     >
       Exercise
     </Typography>
-    <img src={HeroBannerImage} alt="hero-banner" className="hero-banner-img" />
+    <img
+      src={HeroBannerImage}
+      alt="hero-banner"
+      className="hero-banner-img"
+      style={{ borderRadius: "0% 0% 0% 10%" }}
+    />
   </Box>
 );
 
